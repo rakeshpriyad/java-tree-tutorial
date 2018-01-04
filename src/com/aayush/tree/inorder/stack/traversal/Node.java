@@ -1,9 +1,9 @@
-package com.aayush.tree.inorder.morrish.traversal;
+package com.aayush.tree.inorder.stack.traversal;
 
 public class Node {
  int data;
  Node left,right;
- Node(int data){
+ public Node(int data){
 	 this.data = data;
 	 left = right = null;
  }
