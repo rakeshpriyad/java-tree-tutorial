@@ -7,14 +7,11 @@ public class BinaryTree {
 		Node current, prev;
 		current = root;
 		while (current != null) {
-
 			if (current.left == null) {
 				System.out.println(current.data + " ");
 				current = current.right;
 			} else {
-
 				prev = current.left;
-
 				while (prev.right != null && prev.right != current) {
 					prev = prev.right;
 				}
