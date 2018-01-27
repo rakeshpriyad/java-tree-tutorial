@@ -1,5 +1,11 @@
 package com.aayush.tree.inorder.morrish.traversal;
-
+/**
+ * InOrder traversal
+ * Left, Root, Right
+ *
+ * @author aayushraj
+ *
+ */
 public class BinaryTree {
 	Node root;
 
@@ -11,6 +17,7 @@ public class BinaryTree {
 				System.out.println(current.data + " ");
 				current = current.right;
 			} else {
+				/** find in order predecessor**/
 				prev = current.left;
 				while (prev.right != null && prev.right != current) {
 					prev = prev.right;

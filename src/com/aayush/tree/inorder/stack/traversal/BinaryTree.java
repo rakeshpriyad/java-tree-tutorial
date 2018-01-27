@@ -1,7 +1,13 @@
 package com.aayush.tree.inorder.stack.traversal;
 
 import java.util.Stack;
-
+/**
+ * InOrder traversal
+ * Left, Root, Right
+ *
+ * @author aayushraj
+ *
+ */
 public class BinaryTree {
 	Node root;
 

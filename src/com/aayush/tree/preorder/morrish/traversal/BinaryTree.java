@@ -1,7 +1,13 @@
 package com.aayush.tree.preorder.morrish.traversal;
 
 import com.aayush.tree.preorder.morrish.traversal.Node;
-
+/**
+ * InOrder traversal
+ * Root, Left, Right
+ *  
+ * @author aayushraj
+ *
+ */
 public class BinaryTree {
 	Node root;
 
